@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;1,300&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+body {
+    /* background-color: #f1e8e8; */
+    background:  #07023f;
+    color: #202020;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f2f2;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.imagens{
+    
+    height: 425px;
+    width: 650px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1040px){
+    .imagens{
+    
+        height: 260px;
+        width: 370px;
+        margin-left: 5px;
+    }
+}
+
+.linha{
+    height: 5px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    height: 5px;
+    width: 200px;
+    background-color: #202020;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 180px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 200px;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    
+}
+
+.highlight {
+    color: #008000;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color:  #ff6c22;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff9209;
+}

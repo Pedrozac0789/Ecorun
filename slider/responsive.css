@@ -1,0 +1,26 @@
+@media (max-width: 1040px){
+    .slide img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .manual-navigation{
+        position: absolute;
+        width: 8%;
+        margin-top: -70px;
+        display: flex;
+        justify-content: center;
+        margin-left: 159px;
+    }
+
+    .navigation-auto{
+        position: absolute;
+        width: 664px;
+        margin-top: 330px;
+        display: flex;
+        justify-content: center;
+        margin-left: -158px;
+    }
+    
+ 
+}
